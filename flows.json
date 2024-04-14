@@ -1,0 +1,1013 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "07de26f7bc4667a5",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bec52cca8909d67c",
+            "490750916a260358",
+            "ef98064940f3241f",
+            "28552b4904657b2c",
+            "79f5c057e4b5f909",
+            "fc168aa4892ccf31"
+        ],
+        "x": 54,
+        "y": 39,
+        "w": 532,
+        "h": 262
+    },
+    {
+        "id": "79d1f8e0f90794d4",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7a09722c990bb9fa",
+            "0a6a91b09e53d744",
+            "e58ca1a2fc2df20b",
+            "9164f7f4e17bbfba"
+        ],
+        "x": 714,
+        "y": 399,
+        "w": 472,
+        "h": 222
+    },
+    {
+        "id": "24be7ad4525c876c",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "61751cb8e42c43c1",
+            "3e9ea2b35dc1dad9",
+            "2310afa4daf93275",
+            "734a7320363d04fb"
+        ],
+        "x": 74,
+        "y": 779,
+        "w": 492,
+        "h": 222
+    },
+    {
+        "id": "1dcdba91036c56d7",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f875ce5263b34caa",
+            "bd083c2174106dd3",
+            "da0ed91a026637e2",
+            "ebb3aa5aa2c6ceb9",
+            "7d3afc65a2535358",
+            "a9ccf18d389d9435",
+            "d8565010d9ea1674",
+            "15ce75a43c2fa3de",
+            "e8146825176b318c",
+            "82d21168b0a6f289"
+        ],
+        "x": 54,
+        "y": 359,
+        "w": 572,
+        "h": 322
+    },
+    {
+        "id": "9f16c042b2a5f042",
+        "type": "group",
+        "z": "f6f2187d.f17ca8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f7d77c84.a3ab3",
+            "9f55a3f2.97f4f8",
+            "ed2900f2.242358",
+            "f300062f6e8107be",
+            "b67d349227e62bb4",
+            "2039f3146c5d329f",
+            "7bd15a09cbc5f1ef"
+        ],
+        "x": 64,
+        "y": 1099,
+        "w": 652,
+        "h": 302
+    },
+    {
+        "id": "82d21168b0a6f289",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "x": 320,
+        "y": 540,
+        "wires": [
+            [
+                "bd083c2174106dd3"
+            ]
+        ]
+    },
+    {
+        "id": "fc168aa4892ccf31",
+        "type": "junction",
+        "z": "f6f2187d.f17ca8",
+        "g": "07de26f7bc4667a5",
+        "x": 260,
+        "y": 200,
+        "wires": [
+            [
+                "79f5c057e4b5f909"
+            ]
+        ]
+    },
+    {
+        "id": "584cd60bb2b81bc2",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt_broker",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d7171d40e83625ef",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ae08d6b1f11c2f8a",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "22d06c43bfd6df05",
+        "type": "ui_group",
+        "name": "Broker send",
+        "tab": "d7171d40e83625ef",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f5702b906f14ebce",
+        "type": "ui_group",
+        "name": "Broker Subscribe",
+        "tab": "d7171d40e83625ef",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4199a4b8490582d5",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": "10",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "873e949b7746aa9e",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "Influx",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://influxdb:8086",
+        "timeout": "10",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "eeb221fb.ab27f",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "test",
+        "name": "test",
+        "usetls": true,
+        "tls": "d50d0c9f.31e858",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "d50d0c9f.31e858",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false
+    },
+    {
+        "id": "f9f5a59a.a4e5a",
+        "type": "ui_group",
+        "name": "Sine Wave",
+        "tab": "85f902b1.b64a98",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "85f902b1.b64a98",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8d22a9e7.e17cf8",
+        "type": "influxdb",
+        "hostname": "localhost",
+        "port": "8086",
+        "protocol": "http",
+        "database": "test",
+        "name": "",
+        "influxdbVersion": "1.x"
+    },
+    {
+        "id": "bec52cca8909d67c",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "g": "07de26f7bc4667a5",
+        "name": "",
+        "group": "22d06c43bfd6df05",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "fc168aa4892ccf31"
+            ]
+        ]
+    },
+    {
+        "id": "490750916a260358",
+        "type": "mqtt out",
+        "z": "f6f2187d.f17ca8",
+        "g": "07de26f7bc4667a5",
+        "name": "",
+        "topic": "node_red_button/node_red",
+        "qos": "0",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "584cd60bb2b81bc2",
+        "x": 440,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ef98064940f3241f",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "g": "07de26f7bc4667a5",
+        "name": "",
+        "group": "22d06c43bfd6df05",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 260,
+        "wires": [
+            [
+                "fc168aa4892ccf31"
+            ]
+        ]
+    },
+    {
+        "id": "28552b4904657b2c",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "g": "07de26f7bc4667a5",
+        "name": "BUTTONS THAT SEND STATE TO BROKER",
+        "info": "",
+        "x": 250,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "7a09722c990bb9fa",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "g": "79d1f8e0f90794d4",
+        "name": "SUBSCRIBE TO TOPIC",
+        "info": "",
+        "x": 840,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "0a6a91b09e53d744",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "g": "79d1f8e0f90794d4",
+        "name": "",
+        "topic": "node_red_flip/state",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "584cd60bb2b81bc2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 850,
+        "y": 520,
+        "wires": [
+            [
+                "9164f7f4e17bbfba"
+            ]
+        ]
+    },
+    {
+        "id": "e58ca1a2fc2df20b",
+        "type": "ui_gauge",
+        "z": "f6f2187d.f17ca8",
+        "g": "79d1f8e0f90794d4",
+        "name": "",
+        "group": "f5702b906f14ebce",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1070,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "9164f7f4e17bbfba",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "79d1f8e0f90794d4",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "61751cb8e42c43c1",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "g": "24be7ad4525c876c",
+        "name": "SEND TIMESERIES",
+        "info": "",
+        "x": 310,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "3e9ea2b35dc1dad9",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "g": "24be7ad4525c876c",
+        "influxdb": "873e949b7746aa9e",
+        "name": "",
+        "measurement": "_broker",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "PWR",
+        "bucket": "MQTT",
+        "x": 450,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "2310afa4daf93275",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "24be7ad4525c876c",
+        "name": "Inject value",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "_measurement",
+        "payload": "1",
+        "payloadType": "json",
+        "x": 190,
+        "y": 900,
+        "wires": [
+            [
+                "3e9ea2b35dc1dad9",
+                "734a7320363d04fb"
+            ]
+        ]
+    },
+    {
+        "id": "734a7320363d04fb",
+        "type": "mqtt out",
+        "z": "f6f2187d.f17ca8",
+        "g": "24be7ad4525c876c",
+        "name": "",
+        "topic": "node_red/to_influx",
+        "qos": "0",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "584cd60bb2b81bc2",
+        "x": 450,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "f7d77c84.a3ab3",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "9f16c042b2a5f042",
+        "name": "Trigger",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1260,
+        "wires": [
+            [
+                "9f55a3f2.97f4f8"
+            ]
+        ]
+    },
+    {
+        "id": "9f55a3f2.97f4f8",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "g": "9f16c042b2a5f042",
+        "name": "Generate Sine Wave",
+        "func": "// Calculate current time in milliseconds\nvar currentTimeMillis = Date.now();\n\n// Convert milliseconds to nanoseconds\nvar currentTimeNanos = currentTimeMillis * 1000000;\n\n// Calculate value of the sinusoid at the current time\nvar frequency = 1; // Frequency of the sine wave\nvar amplitude = 1; // Amplitude of the sine wave\nvar value = amplitude * Math.sin(2 * Math.PI * frequency * (currentTimeMillis / 50));\n\n// Output the value with timestamp as msg.payload\nmsg.payload = value;\n\n// Attach the timestamp in nanoseconds\nmsg.timestamp = currentTimeNanos;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed2900f2.242358",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "9f16c042b2a5f042",
+        "name": "Output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "f300062f6e8107be",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "g": "9f16c042b2a5f042",
+        "influxdb": "873e949b7746aa9e",
+        "name": "",
+        "measurement": "_sin_wave",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "PWR",
+        "bucket": "MQTT",
+        "x": 550,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "79f5c057e4b5f909",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "07de26f7bc4667a5",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f875ce5263b34caa",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "name": "SEND VALUE FOR GAUGE",
+        "info": "",
+        "x": 200,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "bd083c2174106dd3",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "da0ed91a026637e2",
+        "type": "mqtt out",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "name": "",
+        "topic": "node_red_flip/state",
+        "qos": "0",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "584cd60bb2b81bc2",
+        "x": 510,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "ebb3aa5aa2c6ceb9",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "name": "Inject 0",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 150,
+        "y": 440,
+        "wires": [
+            [
+                "82d21168b0a6f289"
+            ]
+        ]
+    },
+    {
+        "id": "7d3afc65a2535358",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "name": "Inject 1",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "82d21168b0a6f289"
+            ]
+        ]
+    },
+    {
+        "id": "a9ccf18d389d9435",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "name": "Inject 2",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 150,
+        "y": 520,
+        "wires": [
+            [
+                "82d21168b0a6f289"
+            ]
+        ]
+    },
+    {
+        "id": "d8565010d9ea1674",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "name": "Inject 3",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "3",
+        "payloadType": "num",
+        "x": 150,
+        "y": 560,
+        "wires": [
+            [
+                "82d21168b0a6f289"
+            ]
+        ]
+    },
+    {
+        "id": "15ce75a43c2fa3de",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "name": "Inject 4",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "4",
+        "payloadType": "num",
+        "x": 150,
+        "y": 600,
+        "wires": [
+            [
+                "82d21168b0a6f289"
+            ]
+        ]
+    },
+    {
+        "id": "e8146825176b318c",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "g": "1dcdba91036c56d7",
+        "name": "Inject 5",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 150,
+        "y": 640,
+        "wires": [
+            [
+                "82d21168b0a6f289"
+            ]
+        ]
+    },
+    {
+        "id": "b67d349227e62bb4",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "g": "9f16c042b2a5f042",
+        "name": "GENERATE SINUS FOR BROKER",
+        "info": "",
+        "x": 230,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "2039f3146c5d329f",
+        "type": "mqtt out",
+        "z": "f6f2187d.f17ca8",
+        "g": "9f16c042b2a5f042",
+        "name": "sin_wave",
+        "topic": "sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave",
+        "qos": "0",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "584cd60bb2b81bc2",
+        "x": 610,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "7bd15a09cbc5f1ef",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "g": "9f16c042b2a5f042",
+        "name": "sin_wave_sub",
+        "topic": "sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave/sin_wave",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "584cd60bb2b81bc2",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    }
+]
